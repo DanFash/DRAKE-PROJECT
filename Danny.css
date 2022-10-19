@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&display=swap');
+body{
+    background-color:lightblue;
+    background: linear-gradient(white 5%, lightblue 55%, white 30%);
+
+    font-family: 'Epilogue', sans-serif;
+}
+div a{
+    text-decoration: none;
+    padding: 15px;
+    opacity: 1;
+    color: black;
+}
+div a:hover{
+    text-decoration: underline;
+}
+#logo{margin-left: 150px;
+    font-size: large;
+}
+hr{
+    opacity: 0.6;
+    
+}
+.anchor{
+    margin-left: 44%;
+    margin-top: -45px;
+}
+button{
+    width: 70px;
+    height: 25px;
+    margin-top: -5px;
+    background-color: #f60000;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.first{
+    text-align: left;
+    width: 38%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+h2{
+    font-size: 225%;
+}
+.onboard{
+    margin-top: -25px;
+}
+p{
+    font-size: 65%;
+}
+#get{
+    width: 20%;
+    margin-top: 5px;
+}
+.image{
+    position: absolute;
+    left: 60%;
+    height: 40%;
+    width: 30%;
+    top: 17%;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    margin: 5%;
+}
+.flex-container p{
+    font-size: 10px;
+    margin-top: -20px;
+}
+.service{
+    margin-left: 8%;
+    margin-bottom: -30px;
+    margin-top: 40px;
+    width: 49%;
+}
+.service p{
+    font-size: small;
+}
+.second p{
+    opacity: 0.8;
+
+}
+.flex-container img{
+    height: 20px;
+    width: 20px;
+}
